@@ -26,18 +26,18 @@ export function Hero() {
 
             {/* Content */}
             <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 w-full">
-                {/* Tagline with decorative lines */}
+                {/* Large Centered Logo */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
-                    className="flex items-center gap-4 mb-6"
+                    className="flex justify-center mb-8"
                 >
-                    <span className="w-8 h-0.5 bg-amber-500" />
-                    <span className="text-amber-500 font-semibold tracking-wide">
-                        Garansi 3 Sampai 5 Tahun
-                    </span>
-                    <span className="w-8 h-0.5 bg-amber-500" />
+                    <img
+                        src="/image/shrlgo.jpeg"
+                        alt="Samudra Anti Rayap Logo"
+                        className="h-32 md:h-40 lg:h-48 w-auto object-contain"
+                    />
                 </motion.div>
 
                 {/* Main Heading */}
@@ -58,7 +58,7 @@ export function Hero() {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="text-slate-300 text-lg mb-8 max-w-xl"
                 >
-                    Samudra Anti Rayap adalah perusahaan suntik rayap bersertifikasi di Bandung.
+                    Samudra Anti Rayap adalah Jasa Pengendalian Rayap bersertifikasi di Bandung.
                 </motion.p>
 
                 {/* CTA Button */}
